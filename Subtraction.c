@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int n1,n2,Difference;
+    printf("Enter the values:");
+    scanf("%d %d",&n1,&n2);
+    Difference=n1-n2;
+    printf("N1=%d\n",n1);
+    printf("N2=%d\n",n2);
+    printf("Difference=%d",Difference);
+    return 0;
+}
